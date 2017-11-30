@@ -1,0 +1,37 @@
+bin/
+target/
+test-output/
+VAADIN/
+.settings/
+.idea/
+*.1
+*.class
+*.classpath
+*.ear
+*.epoch
+*.iml
+*.ipr
+*.iws
+*.jar
+*.lck
+*.log
+*.odp
+*.out
+*.pdf
+*.pmd
+*.project
+*.springBeans
+*.zip
+
+#Pliki logów UPG
+result.txt
+
+#Magiczne skrypty SQL i pythona
+006_enum_dict_inserts.sql
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Nie ignorujemy plików
+!bin/*.sh
+!src/test/*.out
